@@ -1,0 +1,73 @@
+.header {
+
+	background-color:rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	top: 0;
+
+}
+.header.active {
+    background: #fff;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+.active { 
+	background-color: #fff
+}
+.header-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.logo-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.logo-container >  h1 > a {
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	align-self: flex;
+	text-shadow: 1px 1px 2px purple, 0 0 1em purple, 0 0 0.2em white;
+	text-decoration: none;
+}
+.logo-size {
+	width: 350px;
+	height: 350px;
+}
+.logo-size-flag {
+	width: 200px;
+	height: 70px;
+}
+nav {
+
+}
+nav > ul  {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-self: flex-end;
+	margin: 37px 0 0 0;
+	// padding: 0;
+
+}
+nav > ul > li {
+	align-self: flex-end;
+	list-style: none;
+	text-decoration: none;
+	margin: 0 20px 0 0;
+}
+nav > ul > li > a {
+	color: black;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px purple, 0 0 0.5em purple, 0 0 0.1em white;
+	
+}
+nav > ul > li > a:hover {
+	text-shadow: 1px 1px 4px purple, 0 0 2em purple, 0 0 0.2em white;
+}
